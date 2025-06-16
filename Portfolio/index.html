@@ -15,7 +15,7 @@
     <title>Bayezid Hossain</title>
 </head>
   <body class="bg-gradient-to-bl from-gray-900 to-gray-800 min-h-[100vh] font-san-serif overflow-x-hidden ">
-    <header class=" text-[#ecf0f1] flex justify-between w-[90%] mx-auto p-5 items-center">
+    <header class="  text-[#ecf0f1] flex justify-between w-[90%] mx-auto p-5 items-center">
         <!-- logo -->
         <div>
             <h1 class="text-4xl text-blue-500 font-bold items-center "><a href="https://bayezid-hossain.netlify.app">Bayezid</a></h1> 
@@ -26,10 +26,9 @@
             <ul class="flex gap-10">
                 <li><a href="#home" class="hover:border-b-3 border-[#3498db] rounded-sm ease-in duration-100 ">Home</a></li>
                 <li><a href="#about" class="hover:border-b-3 border-[#3498db] rounded-sm ease-in duration-100">About</a></li>
-                <li><a href="#skills" class="hover:border-b-3 border-[#3498db] rounded-sm ease-in duration-100">Education</a></li>
                 <li><a href="#skills" class="hover:border-b-3 border-[#3498db] rounded-sm ease-in duration-100">Skills</a></li>
-                
                 <li><a href="#porjects" class="hover:border-b-3 border-[#3498db] rounded-sm ease-in duration-100">Projects</a></li>
+                <li><a href="#education" class="hover:border-b-3 border-[#3498db] rounded-sm ease-in duration-100">Education</a></li>
                 <li><a href="#contact" class="hover:border-b-3 border-[#3498db] rounded-sm duration-100 ease-in">Contact</a></li>
             </ul>
         </nav>
@@ -46,7 +45,7 @@
 
 
     <!-- Hero Area -->
-    <div class="w-[90%] mx-auto flex justify-between items-center flex-col-reverse text-center  sm:flex-row sm:text-left ">
+    <div id="home" class=" w-[90%] mx-auto flex justify-between items-center flex-col-reverse text-center  sm:flex-row sm:text-left ">
         <div class="mt-8 sm:mt-0">
              <h2 class="text-xl text-blue-400 mb-2">Hello, I'm</h2>
             <h1 class="text-4xl sm:text-5xl font-bold text-white mb-3">Bayezid Hossain</h1>
@@ -62,8 +61,87 @@
             </div>
         </div>
         <div class="mt-10 sm:pr-20">
-            <img src="img/logo.jpg" alt="Bayezid Hossain" class="w-100 rounded-[50%]">
+            <img src="img/logo.jpg" alt="Bayezid Hossain" class=" border-blue-400 border-4 w-100 rounded-[50%]">
         </div>
     </div> 
+    <!-- Close Hero Area -->
+     <!-- Start About Section -->
+      <div id="about" class="items-center mt-30 flex justify-between w-[90%] mx-auto flex-col sm:flex-row">
+        <div class="hidden sm:block">
+            <img src="img/logo.jpg" alt="Bayezid Hossain" class="w-100 rounded-[50%] border-2 border-blue-400">
+        </div>
+        <div>
+            <h2 class="text-white font-semibold text-4xl mb-10  ">About Me</h2>
+            <p class="text-lg text-gray-300 leading-relaxed max-w-3xl ">
+      I'm <span class="text-blue-400 font-semibold text-2xl">Bayezid Hossain</span>, a professional <span class="text-blue-400 font-semibold text-2xl">MERN Stack Developer</span> with strong expertise in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js.
+       I love building responsive, scalable web applications that solve real-world problems. With a strong foundation in front-end and back-end development, I focus on writing clean and efficient code. I also enjoy learning new technologies and staying updated with industry trends. My goal is to contribute to impactful projects and grow as a full-stack developer. I believe in continuous learning and meaningful collaboration.
+    </p>
+        </div>
+      </div>
+<!-- Close About Section -->
+      <!-- Start Skills -->
+       <div id="skills" class="w-[90%] mx-auto">
+        <div class="mt-20">
+           <h2 class="text-white font-semibold text-4xl mb-10 text-left sm:text-center  ">Skills</h2>
+        </div>
+        <div class="grid grid-cols-1  sm:grid-cols-3 gap-3">
+
+
+            <!-- One by One -->
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+                <img src="img/html.png" alt="html logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">HTML</h2>
+            </div>
+            <!-- One by One -->
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in mx-auto">
+                <img src="img/CSS.png" alt="CSS logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl ">CSS</h2>
+            </div>
+            <!-- One by One -->
+            <div class="bg-[#2d3436] text-center mb-10 items-center w-80 p-4 rounded-lg hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in mx-auto">
+                <img src="img/tailwindcss.png" alt="Tailwind CSS logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">Tailwind CSS</h2>
+            </div>
+            <!-- One by One -->
+            <div class="bg-[#2d3436] text-center mb-10 items-center w-80 p-4 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto">
+                <img src="img/javascript.png" alt="JavaScript logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">JavaScript</h2>
+            </div>
+            
+            <!-- One by One -->
+            <div class="bg-[#2d3436] text-center items-center w-80 p-4 mb-10 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto">
+                <img src="img/react.png" alt="React logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">React</h2>
+            </div>
+            <!-- One by One -->
+            <div class="bg-[#2d3436] text-center items-center w-80 p-4 mb-10 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto ">
+                <img src="img/mongo.png" alt="html logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">MongoDB</h2>
+            </div>
+                 <!-- One by One -->
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+                <img src="img/nodejs.png" alt="nodejs logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">NodeJs</h2>
+            </div>
+
+                 <!-- One by One -->
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+                <img src="img/express.png" alt="html logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">ExpressJs</h2>
+            </div>
+     <!-- One by One -->
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+                <img src="img/git.png" alt="html logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">Git</h2>
+            </div>
+     <!-- One by One -->
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+                <img src="img/github.png" alt="html logo" class="w-25 mx-auto mb-3">
+                <h2 class="text-white text-2xl">github</h2>
+            </div>
+
+
+        </div>
+       </div>
 </body>
-</html>
+</ht

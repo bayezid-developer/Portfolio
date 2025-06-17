@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth scroll-pt-24">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,14 +15,16 @@
     <title>Bayezid Hossain</title>
 </head>
   <body class="bg-gradient-to-bl from-gray-900 to-gray-800 min-h-[100vh] font-san-serif overflow-x-hidden ">
-    <header class="  text-[#ecf0f1] flex justify-between w-[90%] mx-auto p-5 items-center">
+    <header class="  text-[#ecf0f1]   p-5 items-center fixed top-0  bg-[#1e272e] z-50 shadow-md
+    w-full mx-auto ">
+    <div class="w-[90%] mx-auto flex justify-between">
         <!-- logo -->
-        <div>
+        <div >
             <h1 class="text-4xl text-blue-500 font-bold items-center "><a href="https://bayezid-hossain.netlify.app">Bayezid</a></h1> 
         </div>
         <!-- Navigation -->
         <div class="flex gap-16 items-center text-lg font-medium">
-             <nav class="hidden  sm:block">
+             <nav class="hidden   sm:block">
             <ul class="flex gap-10">
                 <li><a href="#home" class="hover:border-b-3 border-[#3498db] rounded-sm ease-in duration-100 ">Home</a></li>
                 <li><a href="#about" class="hover:border-b-3 border-[#3498db] rounded-sm ease-in duration-100">About</a></li>
@@ -41,32 +43,42 @@
             <i class="fa-solid fa-bars "></i>
         </div>
         </div>
+       
+    </div>
     </header>
 
 
     <!-- Hero Area -->
-    <div id="home" class=" w-[90%] mx-auto flex justify-between items-center flex-col-reverse text-center  sm:flex-row sm:text-left ">
+    <div  id="home" class=" w-[90%] mx-auto flex justify-between items-center flex-col-reverse text-center  sm:flex-row sm:text-left mt-25">
         <div class="mt-8 sm:mt-0">
-             <h2 class="text-xl text-blue-400 mb-2">Hello, I'm</h2>
+             <h2 class="text-xl text-blue-400 mb-2 " >Hello, I'm</h2>
             <h1 class="text-4xl sm:text-5xl font-bold text-white mb-3">Bayezid Hossain</h1>
             <h3 class="text-2xl sm:text-3xl text-blue-500 font-semibold mb-4">MERN Stack Developer | Front-End Developer</h3>
             <p class="text-gray-300 mb-6 max-w-xl ">
             I specialize in building modern, responsive web applications using HTML, CSS, JavaScript, Tailwind CSS, React, Node.js, and MongoDB. I love turning ideas into real-world digital products.
             </p>
-
-            <div class="text-3xl text-white  sm:mx-auto ">
-                <a href="https://WWW.linkedin.com/in/bayezid-developer" target="_blank" class="mr-5 hover:text-blue-400 ease-in duration-200"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://WWW.github.com/bayezid-developer" class="mr-5 hover:text-blue-400 ease-in duration-200"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=61573929178151" class="mr-5 hover:text-blue-400 ease-in duration-200"><i class="fa-brands fa-facebook"></i></a>
+            <!-- Start link -->
+            <div class="text-3xl text-white flex flex-col sm:flex-row justify-center gap-4 sm:justify-start items-center  ">
+                <!-- Hire me button -->
+        <a href="#contact"  class=" text-lg font-medium px-7 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition mr-6 items-center">Hire Me</a>  
+        <!-- Clow Hire me button -->
+                <!-- Social link -->
+                 <div class="flex gap-4">
+                    <a href="https://WWW.linkedin.com/in/bayezid-developer" target="_blank" class="mr-5 hover:text-blue-400 ease-in duration-200 items-center"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://WWW.github.com/bayezid-developer" class="mr-5 hover:text-blue-400 ease-in duration-200 items-center"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61573929178151" class="mr-5 hover:text-blue-400 ease-in duration-200 items-center"><i class="fa-brands fa-facebook"></i></a>
+                 </div>
+                
             </div>
         </div>
+        
         <div class="mt-10 sm:pr-20">
-            <img src="img/logo.jpg" alt="Bayezid Hossain" class=" border-blue-400 border-4 w-100 rounded-[50%]">
+            <img src="img/logo.jpg" alt="Bayezid Hossain" class=" border-blue-400 border-4 w-100 rounded-[50%]" >
         </div>
     </div> 
     <!-- Close Hero Area -->
      <!-- Start About Section -->
-      <div id="about" class="items-center mt-30 flex justify-between w-[90%] mx-auto flex-col sm:flex-row">
+      <div  id="about" class="items-center mt-30 flex justify-between w-[90%] mx-auto flex-col sm:flex-row">
         <div class="hidden sm:block">
             <img src="img/logo.jpg" alt="Bayezid Hossain" class="w-100 rounded-[50%] border-2 border-blue-400">
         </div>
@@ -80,7 +92,7 @@
       </div>
 <!-- Close About Section -->
       <!-- Start Skills -->
-       <div id="skills" class="w-[90%] mx-auto">
+       <div   id="skills" class="w-[90%] mx-auto">
         <div class="mt-20">
            <h2 class="text-white font-semibold text-4xl mb-10 text-left sm:text-center  ">Skills</h2>
         </div>
@@ -88,54 +100,54 @@
 
 
             <!-- One by One -->
-            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto hover:bg-gray-700">
                 <img src="img/html.png" alt="html logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">HTML</h2>
             </div>
             <!-- One by One -->
-            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in mx-auto">
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in mx-auto hover:bg-gray-700">
                 <img src="img/CSS.png" alt="CSS logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl ">CSS</h2>
             </div>
             <!-- One by One -->
-            <div class="bg-[#2d3436] text-center mb-10 items-center w-80 p-4 rounded-lg hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in mx-auto">
+            <div class="bg-[#2d3436] text-center mb-10 items-center w-80 p-4 rounded-lg hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in mx-auto hover:bg-gray-700">
                 <img src="img/tailwindcss.png" alt="Tailwind CSS logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">Tailwind CSS</h2>
             </div>
             <!-- One by One -->
-            <div class="bg-[#2d3436] text-center mb-10 items-center w-80 p-4 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto">
+            <div class="bg-[#2d3436] text-center mb-10 items-center w-80 p-4 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto hover:bg-gray-700">
                 <img src="img/javascript.png" alt="JavaScript logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">JavaScript</h2>
             </div>
             
             <!-- One by One -->
-            <div class="bg-[#2d3436] text-center items-center w-80 p-4 mb-10 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto">
+            <div class="bg-[#2d3436] text-center items-center w-80 p-4 mb-10 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto hover:bg-gray-700">
                 <img src="img/react.png" alt="React logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">React</h2>
             </div>
             <!-- One by One -->
-            <div class="bg-[#2d3436] text-center items-center w-80 p-4 mb-10 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto ">
+            <div class="bg-[#2d3436] text-center items-center w-80 p-4 mb-10 hover:shadow-lg transition transform duration-300 hover:scale-105 ease-in rounded-lg mx-auto hover:bg-gray-700">
                 <img src="img/mongo.png" alt="html logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">MongoDB</h2>
             </div>
                  <!-- One by One -->
-            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto hover:bg-gray-700">
                 <img src="img/nodejs.png" alt="nodejs logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">NodeJs</h2>
             </div>
 
                  <!-- One by One -->
-            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto hover:bg-gray-700">
                 <img src="img/express.png" alt="html logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">ExpressJs</h2>
             </div>
      <!-- One by One -->
-            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto hover:bg-gray-700">
                 <img src="img/git.png" alt="html logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">Git</h2>
             </div>
      <!-- One by One -->
-            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto">
+            <div class="bg-[#2d3436] text-center mb-10 rounded-lg items-center w-80 p-4 transition transform duration-300 hover:scale-105 ease in hover:shadow-lg mx-auto hover:bg-gray-700">
                 <img src="img/github.png" alt="html logo" class="w-25 mx-auto mb-3">
                 <h2 class="text-white text-2xl">github</h2>
             </div>

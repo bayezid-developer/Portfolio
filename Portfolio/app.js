@@ -1,0 +1,1 @@
+  alert("This website is built using only HTML and Tailwind CSS.I created it myself by practicing the concepts taught in the Programming Hero 14-Day Bootcamp.I haven’t learned JavaScript yet, so there are no interactive features at this time. Once I learn JavaScript, I will add dynamic functionality to improve the site.");
